@@ -1,0 +1,23 @@
+.deck {
+    display: grid;
+    background-color: white;
+    grid-gap: 20px;
+    grid-auto-rows: 1fr;
+    grid-template-columns: repeat(4,1fr);
+}
+  .deck::before {
+    content: '';
+    grid-row: 1 ;
+    grid-column: 1;
+    padding: 40%;
+  }
+  .deck > *:first-child{
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .card {
+    background: blue;
+  }
+  .container{
+      padding: 1%;
+  }

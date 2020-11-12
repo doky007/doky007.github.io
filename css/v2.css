@@ -9,15 +9,19 @@
     content: '';
     grid-row: 1 ;
     grid-column: 1;
-    padding: 40%;
+    padding: 50%;
   }
   .deck > *:first-child{
     grid-row: 1;
     grid-column: 1;
   }
   .card {
-    background: blue;
+    background: orange;
   }
   .container{
       padding: 1%;
   }
+  .flipped{
+      background-color: red;
+  }
+  

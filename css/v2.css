@@ -21,7 +21,6 @@
   .container{
       padding: 1%;
   }
-  .flipped{
-      background-color: red;
+  .flip{
+    background-color: yellow;
   }
-  

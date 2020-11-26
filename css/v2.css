@@ -21,6 +21,9 @@
   .container{
       padding: 1%;
   }
-  .flip{
+  .flipp{
     background-color: yellow;
+  }
+  .found{
+    background-color: red;
   }

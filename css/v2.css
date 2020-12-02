@@ -1,29 +1,49 @@
 .deck {
     display: grid;
     background-color: white;
-    grid-gap: 20px;
     grid-auto-rows: 1fr;
     grid-template-columns: repeat(4,1fr);
-}
+    width: 80vh;
+    height: 80vh;
+    position: fixed;
+    left: 27.5%;
+    bottom: 2.5%;
+    background-color: rgb(47, 86, 233);
+    border-color: black;
+    border-width: 2.5vh;
+    border-style: solid;  
+  }
+  body {
+    background-color: rgb(144, 158, blue);
+    font-family: monospace;
+    font-size: 5vh;
+    font-weight: bold;
+  }
+  .deck > *:first-child{
+    grid-row: 1;
+    grid-column: 1;
+  }
   .deck::before {
     content: '';
     grid-row: 1 ;
     grid-column: 1;
     padding: 50%;
   }
-  .deck > *:first-child{
-    grid-row: 1;
-    grid-column: 1;
-  }
   .card {
-    background: orange;
-  }
-  .container{
-      padding: 1%;
+    background:rgb(47, 141, 255);
+    color:rgb(47, 141, 255);
+    margin: 5%;
+    text-align: center;
+    line-height: 18vh;
   }
   .flipp{
-    background-color: yellow;
+    background-color:rgb(110, 255, 255);
   }
   .found{
-    background-color: red;
+    opacity: 0;
+  }
+  .Scoreclass{
+    display: grid;
+    text-align: center;
+    font-size: 100%;
   }

@@ -35,6 +35,9 @@
     margin: 5%;
     text-align: center;
     line-height: 18vh;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    
   }
   .flipp{
     background-color:rgb(110, 255, 255);
